@@ -1,0 +1,30 @@
+nav ul li {
+    list-style-type: none;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: rgb(147, 66, 158);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    user-select: none;
+}
+
+#navBar {
+    position: absolute;
+    background-color: rgb(147, 66, 158);
+    height: 3px;
+    transition: .2s;
+    /* transition: .2s; */
+}
